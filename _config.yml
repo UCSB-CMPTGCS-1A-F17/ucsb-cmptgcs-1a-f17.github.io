@@ -1,5 +1,10 @@
 github_url: https://github.com/UCSB-CMPTGCS-1A-F16/UCSB-CMPTGCS-1A-F16.github.io
 
+site_url: https://ucsb-cmptgcs-1a-f16.github.io
+piazza: https://piazza.com/class/isuhkdtldq24f1
+course_github_org: https://github.com/UCSB-CMPTGCS-1A-F16
+gauchospace_course_url: https://gauchospace.ucsb.edu/courses/course/view.php?id=13699
+
 on_campus: http://proquest.safaribooksonline.com
 off_campus: http://proquest.safaribooksonline.com.proxy.library.ucsb.edu:2048
 
@@ -31,7 +36,6 @@ kramdown:
 
 exclude:
    - vendor
-   - _exam/e02/cs56_m16_e02/code
 
 timezone: America/Los_Angeles
 
