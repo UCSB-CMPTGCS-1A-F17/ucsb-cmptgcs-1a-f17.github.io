@@ -54,6 +54,9 @@ collections:
   info:
     output: true
     permalink: /info/:path/
+  lectures:
+    output: true
+    permalink: /lectures/:path/
 
 
 defaults:
@@ -92,5 +95,12 @@ defaults:
       type: info
     values:
       layout: handout
+  -
+    scope:
+      path: ""
+      type: lectures
+    values:
+      layout: default
+
 
 
