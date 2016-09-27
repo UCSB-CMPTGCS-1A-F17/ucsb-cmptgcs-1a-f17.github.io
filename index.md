@@ -1,5 +1,5 @@
 ---
-title: CS56, Fall 2016, pconrad
+title: CMPTGCS 1A, Fall 2016, pconrad
 ---
 
 # {{site.course}}, {{site.quarter}}
