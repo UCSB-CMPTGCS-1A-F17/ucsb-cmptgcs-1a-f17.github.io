@@ -1,8 +1,8 @@
 ---
 layout: lab
 num: lab00
-ready: false
-desc: "TBD"
+ready: true
+desc: "basics of working with CSIL Unix account, C++ and submit.cs"
 assigned: 2016-09-22 09:30:00.00-7
 due: 2016-09-29 21:00:00.00-7
 submit_cs: https://submit.cs.ucsb.edu/form/project/529
