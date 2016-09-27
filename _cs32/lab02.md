@@ -2,7 +2,7 @@
 layout: lab
 num: lab02
 ready: true
-desc: "TBD"
+desc: "selection sort on array of pointers"
 submit_cs: https://submit.cs.ucsb.edu/form/project/541
 ---
 

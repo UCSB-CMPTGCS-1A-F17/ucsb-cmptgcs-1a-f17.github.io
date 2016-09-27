@@ -2,7 +2,7 @@
 layout: lab
 num: lab01
 ready: true
-desc: "TBD"
+desc: "A DIY test-driven development framework"
 submit_cs: https://submit.cs.ucsb.edu/form/project/540
 ---
 

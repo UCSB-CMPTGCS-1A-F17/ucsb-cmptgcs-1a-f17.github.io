@@ -2,7 +2,7 @@
 layout: lab
 num: lab00
 ready: true
-desc: "TBD"
+desc: "Creating a Makefile from scratch, C++ basics, preliminaries towards sorting"
 submit_cs: https://submit.cs.ucsb.edu/form/project/539
 ---
 
