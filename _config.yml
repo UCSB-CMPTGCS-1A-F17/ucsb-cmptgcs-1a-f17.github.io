@@ -48,6 +48,22 @@ collections:
     output: true
     permalink: /lab/:path/
     last_before: false
+  cs16:
+    output: true
+    permalink: /cs16/:path/
+    last_before: false
+  cs24:
+    output: true
+    permalink: /cs24/:path/
+    last_before: false
+  cs32:
+    output: true
+    permalink: /cs32/:path/
+    last_before: false
+  cs56:
+    output: true
+    permalink: /cs56/:path/
+    last_before: false
   exam:
     output: true
     permalink: /exam/:path/

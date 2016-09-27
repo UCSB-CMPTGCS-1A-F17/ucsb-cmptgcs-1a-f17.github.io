@@ -20,7 +20,7 @@ title: CS56, Fall 2016, pconrad
 {% for asn in site.lectures %}
 
 <tr>
-  <td class="asn_num"  ><a href="{{asn.url}}" data-ajax="false">lecture {{ asn.topic }}</a></td>
+  <td ><a href="{{asn.url}}" data-ajax="false">lecture {{ asn.topic }}</a></td>
   <td class="asn_desc" >{{ asn.desc }}</td>
 </tr>
 
@@ -29,14 +29,56 @@ title: CS56, Fall 2016, pconrad
 
 </div>
 
-<div data-role="collapsible" data-collapsed="false">
-<h2 id="homework">Homework:</h2>
-{% include hwk_table.html %}
-</div>
 
 <div data-role="collapsible" data-collapsed="false">
 <h2 id="labs">Labs:</h2>
 {% include lab_table.html %}
+</div>
+
+<div data-role="collapsible" data-collapsed="false">
+<h2 id="cs16">CS16 Labs:</h2>
+<table id="cs16_table" class="asn_table">
+  {% include asn_table_header_row.html %}
+ {% for asn in site.cs16 %}
+ {% if asn.num %}
+   {% include asn_table_row.html %}
+ {% endif %}
+{% endfor %}
+</table>
+</div>
+
+<div data-role="collapsible" data-collapsed="true">
+<h2 id="cs24">CS24 Labs:</h2>
+<table id="cs24_table" class="asn_table">
+  {% include asn_table_header_row.html %}
+ {% for asn in site.cs24 %}
+ {% if asn.num %}
+   {% include asn_table_row.html %}
+ {% endif %}
+{% endfor %}
+</table>
+</div>
+<div data-role="collapsible" data-collapsed="false">
+<h2 id="cs32">CS32 Labs:</h2>
+<table id="cs32_table" class="asn_table">
+  {% include asn_table_header_row.html %}
+ {% for asn in site.cs32 %}
+ {% if asn.num %}
+   {% include asn_table_row.html %}
+ {% endif %}
+{% endfor %}
+</table>
+</div>
+<div data-role="collapsible" data-collapsed="true">
+<h2 id="cs56">CS56 Labs:</h2>
+<table id="cs56_table" class="asn_table">
+  {% include asn_table_header_row.html %}
+ {% for asn in site.cs56 %}
+ {% if asn.num %}
+   {% include asn_table_row.html %}
+ {% endif %}
+{% endfor %}
+</table>
 </div>
 
 <div data-role="collapsible" data-collapsed="false">
