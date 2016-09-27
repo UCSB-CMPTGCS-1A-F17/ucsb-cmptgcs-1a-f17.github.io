@@ -1,12 +1,18 @@
 ---
 layout: lab
 num: lab08
-ready: false
-desc: "tbd"
+ready: true
+desc: "Respond to code review of lab06, and additional tests; must complete lab06, notify instructor and give a week for code review to take place."
 submit_cs: https://submit.cs.ucsb.edu/form/project/547
 ---
 
-Please visit:
+Note: before completing this lab, you must:
+
+* Complete CS32 lab06
+* Ask your instructor to do a review of your work (please allow at least one week for this.)
+
+
+Then, please visit:
 
 <https://foo.cs.ucsb.edu/32wiki/index.php/F15:Labs:lab08>
 
