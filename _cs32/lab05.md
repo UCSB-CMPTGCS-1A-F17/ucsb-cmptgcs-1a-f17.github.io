@@ -1,8 +1,8 @@
 ---
 layout: lab
 num: lab05
-ready: false
-desc: "tbd"
+ready: true
+desc: "word counting, using a data structure of your own choice"
 submit_cs: https://submit.cs.ucsb.edu/form/project/544
 ---
 
