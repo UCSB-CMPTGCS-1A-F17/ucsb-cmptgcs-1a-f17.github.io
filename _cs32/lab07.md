@@ -1,8 +1,8 @@
 ---
 layout: lab
 num: lab07
-ready: false
-desc: "tbd"
+ready: true
+desc: "Tf-Idf analysis of Reddit Posts, Using C++ code to access JSON"
 submit_cs: https://submit.cs.ucsb.edu/form/project/546
 ---
 
