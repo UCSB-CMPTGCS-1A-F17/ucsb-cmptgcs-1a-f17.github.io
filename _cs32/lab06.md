@@ -2,7 +2,7 @@
 layout: lab
 num: lab06
 ready: true
-desc: "tbd"
+desc: "Continuation of lab05: memory leak detection"
 submit_cs: https://submit.cs.ucsb.edu/form/project/545
 ---
 
