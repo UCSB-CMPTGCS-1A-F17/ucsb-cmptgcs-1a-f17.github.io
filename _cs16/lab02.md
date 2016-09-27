@@ -2,7 +2,7 @@
 layout: lab
 num: lab02
 ready: true
-desc: "for loops, if/else, reading from files, more Unix"
+desc: "argc, argv, functions"
 submit_cs: https://submit.cs.ucsb.edu/form/project/531
 ---
 
