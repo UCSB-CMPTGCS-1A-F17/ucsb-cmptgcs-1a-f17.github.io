@@ -1,8 +1,8 @@
 ---
 layout: lab
 num: lab07
-ready: false
-desc: "tbd"
+ready: true
+desc: "arrays of structs, reading from csv files"
 submit_cs: https://submit.cs.ucsb.edu/form/project/536
 ---
 
