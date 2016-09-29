@@ -1,8 +1,8 @@
 ---
 layout: lab
 num: lab06
-ready: false
-desc: "tbd"
+ready: true
+desc: "simple structs"
 submit_cs: https://submit.cs.ucsb.edu/form/project/535
 ---
 
