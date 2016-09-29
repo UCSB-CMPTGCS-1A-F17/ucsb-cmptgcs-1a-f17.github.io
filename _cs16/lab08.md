@@ -1,8 +1,8 @@
 ---
 layout: lab
 num: lab08
-ready: false
-desc: "tbd"
+ready: true
+desc: "linked lists based on structs"
 submit_cs: https://submit.cs.ucsb.edu/form/project/537
 ---
 
