@@ -1,8 +1,8 @@
 ---
 layout: lab
 num: lab05
-ready: false
-desc: "tbd"
+ready: true
+desc: "arrays (min, max, sum, count), separate compilation (.h, .cpp), using a Makefile"
 submit_cs: https://submit.cs.ucsb.edu/form/project/534
 ---
 
