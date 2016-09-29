@@ -1,8 +1,8 @@
 ---
 layout: lab
 num: lab03
-ready: false
-desc: "more on argc/argv, atoi, submit.cs"
+ready: true
+desc: "more on argc/argv, atoi, fencepost problems, submit.cs"
 submit_cs: https://submit.cs.ucsb.edu/form/project/532
 ---
 
