@@ -1,8 +1,8 @@
 ---
 layout: lab
 num: lab04
-ready: false
-desc: "tbd"
+ready: true
+desc: "if/else, nested for loop and if/else logic, ASCII art, tdd"
 submit_cs: https://submit.cs.ucsb.edu/form/project/533
 ---
 
