@@ -2,7 +2,7 @@
 layout: lab
 num: lab03
 ready: false
-desc: "tbd"
+desc: "more on argc/argv, atoi, submit.cs"
 submit_cs: https://submit.cs.ucsb.edu/form/project/532
 ---
 
