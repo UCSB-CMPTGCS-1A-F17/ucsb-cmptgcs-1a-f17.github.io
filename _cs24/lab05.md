@@ -1,11 +1,12 @@
 ---
 layout: lab
-num: lab01
+num: lab05
 ready: true
 desc: ""
-legacy_link: http://www.cs.ucsb.edu/~buoni/cs24/assigns/week1/week1.html
-submit_cs: https://submit.cs.ucsb.edu/form/project/574/submission
-submit_cs_2: https://submit.cs.ucsb.edu/form/project/575/submission
+legacy_link: http://www.cs.ucsb.edu/~buoni/cs24/assigns/week5/week5.html
+submit_cs: https://submit.cs.ucsb.edu/form/project/583/submission
+submit_cs_2: https://submit.cs.ucsb.edu/form/project/584/submission
+submit_cs_2: https://submit.cs.ucsb.edu/form/project/585/submission
 ---
 
 This lab is based on material from Matt Buoni and Diana Franklin.
@@ -19,6 +20,9 @@ provided in that lab however.  Instead, use the one indicated below.
 <tr><th>submit.cs</th><td>{{page.submit_cs}}</td></tr>
 {% if page.submit_cs_2 %}
 <tr><th>&nbsp;</th><td>{{page.submit_cs_2}}</td></tr>
+{% endif %}
+{% if page.submit_cs_3 %}
+<tr><th>&nbsp;</th><td>{{page.submit_cs_3}}</td></tr>
 {% endif %}
 </table>
 

@@ -47,7 +47,7 @@ title: CMPTGCS 1A, Fall 2016, pconrad
 </table>
 </div>
 
-<div data-role="collapsible" data-collapsed="true">
+<div data-role="collapsible" data-collapsed="false">
 <h2 id="cs24">CS24 Labs:</h2>
 <table id="cs24_table" class="asn_table">
   {% include asn_table_header_row.html %}
