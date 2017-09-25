@@ -1,34 +1,34 @@
-github_url: https://github.com/UCSB-CMPTGCS-1A-F16/UCSB-CMPTGCS-1A-F16.github.io
+github_url: https://github.com/UCSB-CMPTGCS-1A-F17/UCSB-CMPTGCS-1A-F17.github.io
 
-site_url: https://ucsb-cmptgcs-1a-f16.github.io
-piazza: https://piazza.com/class/isujf4vpyqz3is
-course_github_org: https://github.com/UCSB-CMPTGCS-1A-F16
-gauchospace_course_url: https://gauchospace.ucsb.edu/courses/course/view.php?id=13699
+site_url: https://ucsb-cmptgcs-1a-f17.github.io
+piazza: https://piazza.com/class/j80jwicfx2r4n4
+course_github_org: https://github.com/UCSB-CMPTGCS-1A-F17
+gauchospace_course_url: https://gauchospace.ucsb.edu/courses/course/view.php?id=19136
 
 on_campus: http://proquest.safaribooksonline.com
 off_campus: http://proquest.safaribooksonline.com.proxy.library.ucsb.edu:2048
 
 start_week: 0
-start_date: 2016-09-18 00:00:00.00-7:00
+start_date: 2017-09-24 00:00:00.00-7:00
 num_weeks: 11
 extra_exam_week: true
 
 cal_dates: >
   [
-  {"label":"First day of classes", "date":"2016-09-22" },
-  {"label":"Univ Holiday", "date":"2016-11-11" },
-  {"label":"Clocks back 1 hour", "date":"2016-11-06" },	
-  {"label":"Univ Holiday", "date":"2016-11-24" },
-  {"label":"Univ Holiday", "date":"2016-11-25" },
-  {"label":"Last day of classes", "date":"2016-12-02" },			
+  {"label":"First day of classes", "date":"2017-09-28" },
+  {"label":"Univ Holiday", "date":"2017-11-10" },
+  {"label":"Clocks back 1 hour", "date":"2017-11-05" },	
+  {"label":"Univ Holiday", "date":"2017-11-23" },
+  {"label":"Univ Holiday", "date":"2017-11-24" },
+  {"label":"Last day of classes", "date":"2017-12-08" },			
   ]
 
 
 course: "CMPTGCS 1A"
 legacy_wiki_name: cs1a
 legacy_wiki_url: "https://foo.cs.ucsb.edu/cs1a" 
-qtr: "F16"
-quarter: "Fall 2016"
+qtr: "F17"
+quarter: "Fall 2017"
 
 kramdown:
    parse_block_html: true

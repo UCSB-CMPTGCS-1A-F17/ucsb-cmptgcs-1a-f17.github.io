@@ -1,5 +1,5 @@
 ---
-title: CMPTGCS 1A, Fall 2016, pconrad
+title: CMPTGCS 1A, Fall 2017
 ---
 
 # {{site.course}}, {{site.quarter}}
