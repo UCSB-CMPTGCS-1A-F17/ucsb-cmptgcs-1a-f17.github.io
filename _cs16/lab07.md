@@ -3,7 +3,7 @@ layout: lab
 num: lab07
 ready: true
 desc: "arrays of structs, reading from csv files"
-submit_cs: https://submit.cs.ucsb.edu/form/project/536
+submit_cs: https://submit.cs.ucsb.edu/form/project/817
 ---
 
 
