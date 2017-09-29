@@ -3,7 +3,7 @@ layout: lab
 num: lab03
 ready: true
 desc: "more on argc/argv, atoi, fencepost problems, submit.cs"
-submit_cs: https://submit.cs.ucsb.edu/form/project/532
+submit_cs: https://submit.cs.ucsb.edu/form/project/813
 ---
 
 # Introduction
