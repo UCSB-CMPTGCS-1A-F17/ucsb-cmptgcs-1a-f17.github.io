@@ -3,7 +3,7 @@ layout: lab
 num: lab08
 ready: true
 desc: "linked lists based on structs"
-submit_cs: https://submit.cs.ucsb.edu/form/project/537
+submit_cs: https://submit.cs.ucsb.edu/form/project/818
 ---
 <div markdown="1">
 
