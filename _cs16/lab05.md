@@ -3,7 +3,7 @@ layout: lab
 num: lab05
 ready: true
 desc: "arrays (min, max, sum, count), separate compilation (.h, .cpp), using a Makefile"
-submit_cs: https://submit.cs.ucsb.edu/form/project/534
+submit_cs: https://submit.cs.ucsb.edu/form/project/815
 ---
 
 <div markdown="1">
