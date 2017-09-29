@@ -3,7 +3,7 @@ layout: lab
 num: lab01
 ready: true
 desc: "for loops, if/else, reading from files, more Unix"
-submit_cs: https://submit.cs.ucsb.edu/form/project/530
+submit_cs: https://submit.cs.ucsb.edu/form/project/811
 ---
 
 <div markdown="1">
