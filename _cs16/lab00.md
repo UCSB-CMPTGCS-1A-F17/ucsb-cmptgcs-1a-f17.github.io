@@ -43,7 +43,7 @@ This lab must be completed INDIVIDUALLY. In the subsequent labs you are encourag
 
 You may now go ahead and complete the following steps:
 
-* [Create a College of Engineering computer account, a github account and sign into our github organization](#step1){: data-ajax="false"}
+* [Create a College of Engineering computer account](#step1){: data-ajax="false"}
 * [Learn how to open a terminal on a lab or personal computer.](#step2){: data-ajax="false"}
 * [Learn basic unix commands and create your lab00 directory.](#step3){: data-ajax="false"}
 * [Learn how to edit a text file used for writing programming code.](#step4){: data-ajax="false"}
@@ -54,7 +54,7 @@ You may now go ahead and complete the following steps:
 * [Create a github account and explore its web interface](#step9){: data-ajax="false"}
 * [Perform basic git configurations](#step10)
 
-## Step 1: Create an Engineering (CoE) Account, a github account and sign into our class github organization <a name="step1"></a>
+## Step 1: Create an Engineering (CoE) and Github Account <a name="step1"></a>
 
 ### Create an CoE account if you don't have one already
 
@@ -69,22 +69,6 @@ If you are enrolled in <i>any</i> CoE course this quarter (including CS16), you 
 ### Create a github account
 
 Sign up for a free account on [Github](https://github.com/). Use your official ucsb email when signing up. Sign into [Github](https://github.com/) with your github account.
-
-### Sign up to be added into our class organization
-
-To join our github organization, follow these easy steps :
-
-1. click on this link:[ https://ucsb-cs16-s17-signup.herokuapp.com/]( https://ucsb-cs16-s17-signup.herokuapp.com/). You should see the following welcome message (with the org name as ucsb-cs16-sp17), click on the blue "sign in with Github" button:
-
-![welcome](/lab/lab00/enter-org/pic1.png){:height="500px"}
-
-2. The next screen asks you to authorize our app to add you to our class organization. Click on the green "authorize application" button.
-
-![authorize](/lab/lab00/enter-org/pic2.png){:height="500px"}
-
-3. Enter your github and you should see the following screen that shows you were successfully added to our class organization:
-
-![success](/lab/lab00/enter-org/pic4.png){:height="500px"}
 
 <hr>
 
@@ -438,11 +422,11 @@ Next, you need to join the CS16 course. Look for the "Join Class" link at the to
 
 <img src="submit-topbar.png" width="542" alt="submit.cs Top Bar" />
 
-Once you see the list of all courses, click on the <b>"Join CS16_s17_mirza"</b> button.
+Once you see the list of all courses, click on the <b>"Join CMPTGCS_1a_f17"</b> button.
 
 You should then see CS16 appear on your homepage when logging in to the submit.cs system. Click on the course now.
 
-Now find "lab00" and click on the "Make Submission" button. It looks like this:
+Now find "cs16_lab00" and click on the "Make Submission" button. It looks like this:
 
 <img src="make-submission-button.png" width="154" alt="Make Submission Button" />
 
@@ -456,7 +440,7 @@ Once you submit, you should see a page detailing your submission. The system wil
 
 You can <em>alternatively</em> submit your code from the command line (i.e. in the terminal) on any CS machine, including the Phelps lab machines or the CSIL server. You can also use this method when logged in remotely. To submit the the <b>hello.cpp</b> file to this assignment by running the command:
 
-	$ ~submit/submit -p 660 hello.cpp
+	$ ~submit/submit -p 810 hello.cpp
 
 The program will ask you to login <b>with your submit.cs username and password</b>. The password will not be printed to the terminal, but what you type will be used. It will also offer the option to save your credentials, so that you do not have login next time you submit. You may choose to do this or not. After the submission succeeds, you should see the program output something like:
 
