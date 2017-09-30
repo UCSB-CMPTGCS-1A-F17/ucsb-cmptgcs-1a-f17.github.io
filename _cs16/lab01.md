@@ -27,19 +27,6 @@ To complete the lab follow these steps in order:
 
 # Step by Step Instructions
 
-## Step 0: Check-in with your mentor
-
-* At the start of every lab, you and your partner should get together with your mentor group and mentor. We encourage you to sit next to your partner and near your mentor group. Your mentor will come to you, but if they don't do so in the first 5 minutes, raise your hand to get their attention. Your mentor will give you any initial instructions as required for the lab, guiding you on the key learning goals and any challenging aspects that you need to pay special attention to. They will also take your attendance for that lab. This is also a time when you will check in about your progress in the programming assignments. Make sure that you always have the latest version of your code pushed to github before your weekly check-in with your mentor.
-
-* If you have questions about pair programming, ask your mentor.
-
-* If you reported a different partner to your mentor last week, please update your mentor before you proceed with the rest of the lab
-
-* Choose who will be the pilot for the first part of the lab. The pilot should sit down in front of the computer now. The navigator gets a chair and sits next to the pilot. You should exchange roles after awhile, before the pilot gets tired, and before the navigator gets bored or distracted.
-
-* If your partner shows up late, let your mentor know. Points will be deducted for students who don't show up on time. If you face difficulties with pair programming consult your mentor. 
-
-
 ## Step 1: Log on and create a directory for this lab
 
 * Log into the pilot's CoE account on CSIL and open a terminal. 
@@ -140,7 +127,7 @@ Remember to re-compile the relevant files after you make any changes to the C++ 
 
 Switch roles with your partner.
 
-Write a C++ program that approximates the value of the constant π. Once again you should not resort to using predefind constants and functions for π, that are provided by C++ standard libraries. Instead you should compute the value of π based on the Leibniz formula for π. The formula is given below:
+Write a C++ program in ```pi.cpp``` that approximates the value of the constant π. Once again you should not resort to using predefind constants and functions for π, that are provided by C++ standard libraries. Instead you should compute the value of π based on the Leibniz formula for π. The formula is given below:
 
 ```
  1 – 1/3 + 1/5 – 1/7 + 1/9 ...  = pi/4
@@ -199,8 +186,6 @@ cout.precision(3);         // Set the number of digits to display after the deci
 
 <hr>
 
-We recommend you complete the next section after the Wed(04/12) lecture because it involves functions and passing command line arguments to main, which we have not yet covered in class. Consider skipping over to the step "Submit your code". Make sure you check in with your mentor befor leaving the labs
-
 
 ### Calculate the minimum of 4 numbers
 
@@ -256,8 +241,8 @@ Once you are satisfied that your programs are correct, it is time to submit them
 ### Joining the same group
 
 * Navigate to https://submit.cs.ucsb.edu
-* Go to CS16_s17_mirza
-* Click on the lab page. You will see a blue button named “Join Groups” on top of the page, Click on the button
+* Go to CMPTGCS_1a_f17
+* Click on the cs16_lab01 page. You will see a blue button named “Join Groups” on top of the page, Click on the button
 * Click on you and your partner’s name. Create group.
 
 
@@ -266,7 +251,7 @@ Note: Please remember that you must submit the programs to obtain any credit for
 
 *Submitting via the web interface*
 
-* Login at https://submit.cs.ucsb.edu, then navigate to “CS16_Mirza_s17” and click on “lab01”. Then click “Make Submission”, and make your submission. Remember to submit all of the .cpp files.
+* Login at https://submit.cs.ucsb.edu, then navigate to “CMPTGCS_1a_f17” and click on “cs16_lab01”. Then click “Make Submission”, and make your submission. Remember to submit all of the .cpp files.
 * Once you submit, you should see a page detailing your submission. The system will automatically grade your program and will show you the results on this page after a 1 minute delay.
 
 *Submitting via command line*
@@ -274,8 +259,8 @@ Note: Please remember that you must submit the programs to obtain any credit for
 You can alternatively submit your code from the command line (terminal) on any CS machine, including the Phelps lab machines or the CSIL server. You can use this method when logged in remotely or while on the csil machines. This is the preferred method of submitting
 
 Submit all the source files to this assignment by running the command:
-`~submit/submit -p 691 block.cpp min4.cpp pi.cpp`
-(691 is from the lab link https://submit.cs.ucsb.edu/p/691/group )
+`~submit/submit -p 811 block.cpp min4.cpp pi.cpp`
+(811 is from the lab link https://submit.cs.ucsb.edu/p/811/group )
 
 You can copy the URL shown in the output of the above and paste into a web browser to reach the submission result page.
 
@@ -288,9 +273,6 @@ You may submit this lab multiple times. You should submit only after local compi
 
 
 ## Done!<a name="done"></a>
-
-Check in with your mentor to get marked for completing the lab. 
-Discuss with them any challenges you faced while completing the lab. If you haven't finished the lab (as is expected) discuss with your mentor when you can come to the open lab hours to finish the rest of the lab.
 
 You are now done with this assignment!
 If you are in the Phelps lab or in CSIL, make sure to log out of the machine before you leave. Also, make sure to close all open programs before you log out. Some programs will not work next time if they are not closed. Remember to save all your open files before you close your text editor.
@@ -316,6 +298,6 @@ In addition to the points given by submit.cs, our staff will be manually grading
 
 </div>
 
-Please the page <{{page.submit_cs}}>, or the Unix shell commmand listed at that
+Please use the page <{{page.submit_cs}}>, or the Unix shell commmand listed at that
 link (e.g. `~submit/submit -p nnn file1 file2 ... filen`) to
-submit your assignment rather than the command listed in the instructions. 
+submit your assignment rather than the command listed in the instructions if different. 
