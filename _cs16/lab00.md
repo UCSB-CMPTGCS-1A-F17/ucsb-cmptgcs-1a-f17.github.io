@@ -478,7 +478,7 @@ If you have made it to this step, then you have successfully created a C++ progr
 
 3. Read this article on [creating a github repo under an organization](https://ucsb-cs16.github.io/topics/github_com_create_private_repo_under_org/). Open a browser and navigate to our class organization on github: [ucsb-cs16-sp17](https://github.com/orgs/ucsb-cs16-sp17/dashboard). Click on the green button that says "New repository", and follow the steps from the ["creating a github repo under an organization"](https://ucsb-cs16.github.io/topics/github_com_create_private_repo_under_org/) article, to create a PRIVATE repo containing only a README.md and a .gitignore. See screenshot below:
 
-![new-repo](/lab/lab00/enter-org/pic5.png){:height="500px"}
+![new-repo](/cs16/lab00/enter-org/pic5.png){:height="500px"}
 
 
 Your repo name should be lab00_your-github-username. For example if your github username is jgaucho, you should name your repo as lab00_jgaucho. Make sure you select the PRIVATE option when creating your repo.
@@ -489,11 +489,11 @@ Your repo name should be lab00_your-github-username. For example if your github 
 
 6. Upload your hello.cpp file. To do this step you should be physically present on a lab machine or in CSIL where you have access to a web browser and a local copy of your hello.cpp program. On your web browser, navigate to your repo on github. If your repo name is lab00_jgaucho, the link to the repo is: [https://github.com/ucsb-cs16-sp17/lab00_jgaucho](https://github.com/ucsb-cs16-sp17/lab00_jgaucho). Click on the "Upload files" button as shown below. 
 
-![git-file-upload](/lab/lab00/git-repo-pic_ink-upload.jpg){:height="500px"}
+![git-file-upload](/cs16/lab00/git-repo-pic_ink-upload.jpg){:height="500px"}
 
 <p>You should see the following screen:</p>
 
-![git-upload-hello](/lab/lab00/upload-hello-cpp.png){:height="500px"}
+![git-upload-hello](/cs16/lab00/upload-hello-cpp.png){:height="500px"}
 
 7. Now either drag and drop the "hello.cpp" file from your machine or use the "Choose your files" option to browse through your local directory and upload the file. Then press the green "Commit new files" button. Navigate back to your repo to see that the hello.cpp file is correctly listed along with the other files. Click on it and you should see your code on github's web interface. Continue to explore the web interface of your github repo. For example, try clicking on the "commits" link in your repo. What does that show you and what do you think it means? 
 
