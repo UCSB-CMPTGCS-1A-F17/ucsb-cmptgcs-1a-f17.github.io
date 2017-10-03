@@ -314,10 +314,10 @@ animals02.txt  myProg01.cpp    myProg02.cpp  sample01.cpp
 
 * Use the following command to turn in your files:
 <pre>
--bash-4.2$ ~submit/submit -p 700 myProg01.cpp myProg02.cpp
+-bash-4.2$ ~submit/submit -p 813 myProg01.cpp myProg02.cpp
 </pre>
 
-The number 700 is the "project number" specfic to CS16 S17 lab03 for our class section.
+The number 813 is the "project number" specfic to CMPTGCS1A cs16_lab03 for our class section.
 
 ### What a successful turnin looks like 
 
@@ -327,7 +327,7 @@ The number 700 is the "project number" specfic to CS16 S17 lab03 for our class s
 [dimirza@csil-02 lab03_agaucho_alily]$ ls
 animals01.txt  countDucks      myProg01      myProg02      README.md
 animals02.txt  countDucks.cpp  myProg01.cpp  myProg02.cpp  sample01.cpp
-[dimirza@csil-02 lab03_agaucho_alily]$ ~submit/submit -p 700 myProg01.cpp myProg02.cpp
+[dimirza@csil-02 lab03_agaucho_alily]$ ~submit/submit -p 813 myProg01.cpp myProg02.cpp
 logged in as dimirza@cs.ucsb.edu
 Sending myProg01.cpp
 Sending myProg02.cpp
