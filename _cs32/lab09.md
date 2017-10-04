@@ -1,14 +1,14 @@
 ---
 layout: lab
-num: lab06
+num: lab09
 ready: true
-desc: "Continuation of lab05: memory leak detection"
-submit_cs: https://submit.cs.ucsb.edu/form/project/545
+desc: "Tf-Idf analysis of Reddit Posts, Using C++ code to access JSON"
+submit_cs: https://submit.cs.ucsb.edu/form/project/546
 ---
 
 Please visit:
 
-<https://foo.cs.ucsb.edu/32wiki/index.php/F15:Labs:lab06>
+<https://foo.cs.ucsb.edu/32wiki/index.php/F15:Labs:lab07>
 
 This content will eventually be relocated to here.
 

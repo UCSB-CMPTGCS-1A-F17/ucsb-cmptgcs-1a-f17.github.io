@@ -1,6 +1,6 @@
 ---
 layout: lab
-num: lab08
+num: lab10
 ready: true
 desc: "Respond to code review of lab06, and additional tests; must complete lab06, notify instructor and give a week for code review to take place."
 submit_cs: https://submit.cs.ucsb.edu/form/project/547

@@ -1,14 +1,14 @@
 ---
 layout: lab
-num: lab02
+num: lab08
 ready: true
-desc: "selection sort on array of pointers"
-submit_cs: https://submit.cs.ucsb.edu/form/project/541
+desc: "Continuation of lab07: memory leak detection"
+submit_cs: https://submit.cs.ucsb.edu/form/project/545
 ---
 
 Please visit:
 
-<https://foo.cs.ucsb.edu/32wiki/index.php/F15:Labs:lab02>
+<https://foo.cs.ucsb.edu/32wiki/index.php/F15:Labs:lab06>
 
 This content will eventually be relocated to here.
 
