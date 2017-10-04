@@ -3,8 +3,15 @@ layout: lab
 num: lab01
 ready: true
 desc: "for loops, if/else, reading from files, more Unix"
-submit_cs: https://submit.cs.ucsb.edu/form/project/811
+submit_cs: https://submit.cs.ucsb.edu/form/project/811/submission
+submit_cs_pnum: 811
 ---
+
+# NOTE: This lab is borrowed from another course and adapted for use in CCS CMPTGCS 1A
+
+Please use the page <{{page.submit_cs}}>, or the Unix shell commmand listed at that
+link (e.g. `~submit/submit -p nnn file1 file2 ... filen`) to
+submit your assignment rather than the command listed in the instructions if different. 
 
 <div markdown="1">
 
@@ -251,19 +258,22 @@ Note: Please remember that you must submit the programs to obtain any credit for
 
 *Submitting via the web interface*
 
-* Login at https://submit.cs.ucsb.edu, then navigate to “CMPTGCS_1a_f17” and click on “cs16_lab01”. Then click “Make Submission”, and make your submission. Remember to submit all of the .cpp files.
+* In general, to submit via submit.cs, you should login at https://submit.cs.ucsb.edu, then navigate to the page for this course, and the page for this lab number.  
+* Or just visit this direct link: <{{page.submit_cs}}>
+* Then click “Make Submission”, and make your submission. Remember to submit all of the files that submit.cs is expecting (and with exactly the file names it expects.)
 * Once you submit, you should see a page detailing your submission. The system will automatically grade your program and will show you the results on this page after a 1 minute delay.
 
 *Submitting via command line*
 
-You can alternatively submit your code from the command line (terminal) on any CS machine, including the Phelps lab machines or the CSIL server. You can use this method when logged in remotely or while on the csil machines. This is the preferred method of submitting
+You can alternatively submit your code from the command line (terminal) on any CS machine, including the Phelps lab machines or the CSIL server. You can use this method when logged in remotely or while on the csil machines. This is the preferred method of submitting.
 
 Submit all the source files to this assignment by running the command:
-`~submit/submit -p 811 block.cpp min4.cpp pi.cpp`
-(811 is from the lab link https://submit.cs.ucsb.edu/p/811/group )
+
+<tt>~submit/submit -p {{page.submit_cs_pnum}} block.cpp min4.cpp pi.cpp</tt>
+
+The project number `811` comes from the submit.cs link for this program, i.e. <{{page.submit_cs}}> )
 
 You can copy the URL shown in the output of the above and paste into a web browser to reach the submission result page.
-
 
 ## Check Submission Results<a name="checksubmission"></a>
 
@@ -298,6 +308,3 @@ In addition to the points given by submit.cs, our staff will be manually grading
 
 </div>
 
-Please use the page <{{page.submit_cs}}>, or the Unix shell commmand listed at that
-link (e.g. `~submit/submit -p nnn file1 file2 ... filen`) to
-submit your assignment rather than the command listed in the instructions if different. 
