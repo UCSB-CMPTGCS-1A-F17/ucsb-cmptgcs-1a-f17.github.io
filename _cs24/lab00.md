@@ -5,10 +5,11 @@ ready: true
 desc: "Getting started with C++ functions and github's web interface"
 assigned: 2017-04-04 09:00:00.00-7
 due: 2017-04-11 23:59:00.00-7
+submit_cs_link: "819"
+github_heroku_signup_app: "https://ucsb-cmptgcs1a-f17-signup.herokuapp.com"
 ---
-# Activities to complete prior to coming to the lab
 
-1. Check out your [mentor group](/info/mentor_groups/). In lab you and all your group members should meet with your mentor as soon as you reach the lab. Gather around your mentor for a short activity to get aquainted with your group
+# Activities to complete prior to coming to the lab
 
 2. Read the lab introduction (see next section)
 
@@ -16,14 +17,7 @@ due: 2017-04-11 23:59:00.00-7
 
 # Introduction
 
-Your first lab for this week is an introduction to your mentor group and programming on CSIL and in the Computer Science (Phelps) lab. 
-
-You will start with activities outside the lab (out in the lawns). The intended of those activities are:
-
-* Getting to know your peers and mentors (starting with their names)
-* Finding a potential programming partner who you will work with on subsequent labs (you don't have to make that decision until the end of the lab)
-
-You will then proceed to complete the rest of the lab. The intended outcomes are:
+The intended outcomes are:
 
 * Writing a simple C++ program
 * Learning about github's web interface
@@ -31,10 +25,8 @@ You will then proceed to complete the rest of the lab. The intended outcomes are
 
 Before leaving the lab you must get the following things checked off by your mentor:
 
-* Signed the electronic attendance sheet (your mentor should do this on your behalf)
 * Progress on your C++ program
 * Successful creation of a github account and signed up into our class github organization.
-* The tentative name of your programming partner for lab01 and pa01 (must be someone from your mentor group). You have time to change that until the due date for lab01
 
 This lab must be completed INDIVIDUALLY. In the subsequent labs you are encouraged to work with a programming partner.
 
@@ -48,7 +40,7 @@ At this point, please go to [THIS LINK](https://ucsb.box.com/s/px12flf8g41m8g0gq
 
 You can create an account online at <a href="https://accounts.engr.ucsb.edu/create" target="_blank">https://accounts.engr.ucsb.edu/create</a>.
 
-If you are enrolled in <i>any</i> CoE course this quarter (including CS24), you can create your account immediately. If you are not, you will need to contact the ECI Help Desk at <a href="mailto:help@engineering.ucsb.edu">help@engineering.ucsb.edu</a>.
+If you are enrolled in <i>any</i> Computer Science course this quarter, you can create your account immediately. If you are not, you will need to contact the ECI Help Desk at <a href="mailto:help@engineering.ucsb.edu">help@engineering.ucsb.edu</a>.
 
 ### Create a github account
 
@@ -58,7 +50,7 @@ Sign up for a free account on [Github](https://github.com/). Use your official u
 
 To join our github organization, follow these easy steps:
 
-1. click on this link:[ https://ucsb-cs24-s17-signup.herokuapp.com/]( https://ucsb-cs24-s17-signup.herokuapp.com/). You should see the following welcome message (with the organization stated as ucsb-cs24-sp17), click on the blue "sign in with Github" button:
+1. click on this link:<{{page.github_heroku_signup_app}}>. You should see the following welcome message (with the organization stated as ucsb-cs24-sp17), click on the blue "sign in with Github" button:
 
 ![welcome](/lab/lab00/enter-org/pic1.png){:height="500px"}
 
@@ -102,33 +94,31 @@ Change into that directory and create a lab00 directory
 ```
 $ mkdir lab00
 $ cd lab00   
+```
 
 Open an editor of your choice (either vim or emacs)
 
 Useful links related to emacs
 
-	* <a href="https://www.gnu.org/software/emacs/tour/" target="_blank">emacs tour from the GNU organization (makers of emacs)</a>
+* <a href="https://www.gnu.org/software/emacs/tour/" target="_blank">emacs tour from the GNU organization (makers of emacs)</a>
 
-	* <a href="https://www.gnu.org/software/emacs/refcards/pdf/refcard.pdf" target="_blank">emacs commands - a handy reference card</a>
+* <a href="https://www.gnu.org/software/emacs/refcards/pdf/refcard.pdf" target="_blank">emacs commands - a handy reference card</a>
 
-	* <a href="http://www.jesshamrick.com/2012/09/10/absolute-beginners-guide-to-emacs" target="_blank">a beginner's guide to emacs</a>
+* <a href="http://www.jesshamrick.com/2012/09/10/absolute-beginners-guide-to-emacs" target="_blank">a beginner's guide to emacs</a>
 	
 
 Useful information related to <b>vim</b> for UNIX-based OS
 	
-	* To customize your vim environment for a better coding experience with C/C++ copy this .vimrc file from the instructor folder to your home folder using the following command:
+* To customize your vim environment for a better coding experience with C/C++ copy this .vimrc file from the instructor folder to your home folder using the following command:
 
-	```
-	cp /cs/faculty/dimirza/cs16-wi17/labs/example_dotvimrc/.vimrc ~/
-	``` 
+```
+cp /cs/faculty/dimirza/cs16-wi17/labs/example_dotvimrc/.vimrc ~/
+``` 
 
-	* <a href="http://www.vim.org/about.php" target="_blank">About vim</a>
-
-	* <a href="http://tnerual.eriogerg.free.fr/vimqrc.html" target="_blank">vim commands - a handy reference card</a>
-
-	* <a href="https://www.fprintf.net/vimCheatSheet.html" target="_blank">another reference cheat sheet for vim</a>
+* [About vim](http://www.vim.org/about.php)
+* [vim commands - a handy reference card](http://tnerual.eriogerg.free.fr/vimqrc.html)
+* [another reference cheat sheet for vim](https://www.fprintf.net/vimCheatSheet.html)
 	
-
 
 <hr>
 To refresh you may see some [emacs hints](emacs_hints/) and some [vim hints](vim_hints/).
@@ -139,6 +129,7 @@ This assignment only needs you to write a program that prints out two lines on t
 Hello, world!
 CS24 Spring 2017.
 ```
+
 ## Step 3: Submit your program for grading <a name="step7"></a>
 
 Once you are satisfied that your program is correct, then it's time to submit it.
@@ -149,9 +140,8 @@ Join the class CS24_s17 on submit.cs.
 
 Submit using the command:
 
-```
-$ ~submit/submit -p 661 hello.cpp
-```
+
+<tt>$ ~submit/submit -p {{page.submit_cs_pnum}} hello.cpp</tt>
 
 <hr>
 
