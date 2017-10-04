@@ -5,7 +5,8 @@ ready: true
 desc: "basics of working with CSIL Unix account, C++ and submit.cs"
 assigned: 2016-09-22 09:30:00.00-7
 due: 2016-09-29 21:00:00.00-7
-submit_cs: https://submit.cs.ucsb.edu/form/project/810
+submit_cs: https://submit.cs.ucsb.edu/form/project/810/submission
+submit_cs_pnum: 810
 ---
 
 # Activities to complete prior to coming to the lab
@@ -440,11 +441,14 @@ Once you submit, you should see a page detailing your submission. The system wil
 
 You can <em>alternatively</em> submit your code from the command line (i.e. in the terminal) on any CS machine, including the Phelps lab machines or the CSIL server. You can also use this method when logged in remotely. To submit the the <b>hello.cpp</b> file to this assignment by running the command:
 
-	$ ~submit/submit -p 810 hello.cpp
+
+<tt>$ ~submit/submit -p {{page.submit_cs_pnum}} hello.cpp</tt>
 
 The program will ask you to login <b>with your submit.cs username and password</b>. The password will not be printed to the terminal, but what you type will be used. It will also offer the option to save your credentials, so that you do not have login next time you submit. You may choose to do this or not. After the submission succeeds, you should see the program output something like:
 
-	Results will be available at: https://submit.cs.ucsb.edu/submission/xxxxx
+```
+Results will be available at: https://submit.cs.ucsb.edu/submission/xxxxx
+```
 
 You can copy this URL and paste into a Web browser to reach the same submission result page as described above.
 
@@ -472,7 +476,7 @@ After the 1 minute delay, the submit system will show your score and give you fe
 
 If you have made it to this step, then you have successfully created a C++ program, tested it on a remote server (csil.cs.ucsb.edu) and made a successful submission. We would however like you to do one more step to get familiarized with git and github. Here is some motivation: When developing large programs, it is very useful to save working versions of your code that you can always revert to. Trying to do this manually often leads to total chaos!! That's why professional programmers use some kind of version control system (VCS). We will use a popular VCS called Git. With Git all versions of your code will be available to you and your collaborators (in later labs this would be your pair-programming partner) anytime, anywhere! It will also help the course staff view your progress as you work on the assignments.
 
-1. Before we begin, read this article to get an overview of git: [https://ucsb-cs56-pconrad.github.io/topics/git_overview/](https://ucsb-cs56-pconrad.github.io/topics/git_overview/)
+1. Before we begin, read this article to get an overview of git: <https://ucsb-cs56-pconrad.github.io/topics/git_overview/>
 
 2. You will now create a git repo. The concept of a repo was explained in the article that you just read. New projects always start with this step. Since Github promotes "open source" projects, repos created under your default github account are *public*. This means that they are visible to everyone on the internet. However, for this class your assignments have to be "closed source", and not open to your classmates and others on the internet. This requires that you create *private* repos. These are repos that are only visible to you, your pair-partner and the instructional staff. You can only create private repos within our class organization on github: ucsb-cs16-sp17. So, the next step is to join our class organization.
 
@@ -502,14 +506,20 @@ Congratulations on completing your introductory exercise to github. We will cont
 
 ## Step 10: Done!
 
-<p>You can continue to make submissions on submit.cs until your submission receives a score of 100/100. If you have a perfect score and  have also successfully uploaded your code to your github repo, you are done with this assignment. We will be grading the git part of this assignment manually on github. Congratulations on completing your first C++ program!</p>
+You can continue to make submissions on submit.cs until your submission receives a score of 100/100. If you have a perfect score and  have also successfully uploaded your code to your github repo, you are done with this assignment. We will be grading the git part of this assignment manually on github. Congratulations on completing your first C++ program!
 
-<p>If you are in the Phelps lab or in CSIL, <b>make sure to log out of the machine before you leave</b>. Also, make sure to close all open programs before you log out. Some programs will not work next time if they are not closed. Remember to save all your open files before you close your text editor.</p>
+If you are in the Phelps lab or in CSIL, <b>make sure to log out of the machine before you leave</b>. Also, make sure to close all open programs before you log out. Some programs will not work next time if they are not closed. Remember to save all your open files before you close your text editor.
 
-<p>If you are logged in remotely, you can log out using the <b>exit</b> command in UNIX:</p>
-<pre>$ exit</pre>
+If you are logged in remotely, you can log out using the `exit` command in UNIX:
 
+```
+$ exit
+```
 
-Please the page <{{page.submit_cs}}>, or the Unix shell commmand listed at that
-link (e.g. `~submit/submit -p nnn file1 file2 ... filen`) to
-submit your assignment rather than the command listed in the instructions. 
+To submit, please visit the page <{{page.submit_cs}}>, or use the Unix shell commmand listed at that
+link, e.g. 
+
+<tt>~submit/submit -p nnn file1 file2 ... filen</tt> 
+
+to submit your assignment.
+
