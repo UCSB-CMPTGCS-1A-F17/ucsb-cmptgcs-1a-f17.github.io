@@ -5,7 +5,7 @@ ready: true
 desc: "Getting started with C++ functions and github's web interface"
 assigned: 2017-04-04 09:00:00.00-7
 due: 2017-04-11 23:59:00.00-7
-submit_cs_link: "819"
+submit_cs_pnum: "819"
 github_heroku_signup_app: "https://ucsb-cmptgcs1a-f17-signup.herokuapp.com"
 ---
 
