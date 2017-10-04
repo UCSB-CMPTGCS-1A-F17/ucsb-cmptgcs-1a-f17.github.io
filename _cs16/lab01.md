@@ -7,13 +7,14 @@ submit_cs: https://submit.cs.ucsb.edu/form/project/811/submission
 submit_cs_pnum: 811
 ---
 
-# NOTE: This lab is borrowed from another course and adapted for use in CCS CMPTGCS 1A
+# NOTE: This labs adapted from CS16 to CCS 1A
+
+This lab is borrowed from Diba Mirza's CS16 and adapted for use in CCS CMPTGCS 1A
 
 Please use the page <{{page.submit_cs}}>, or the Unix shell commmand listed at that
 link (e.g. `~submit/submit -p nnn file1 file2 ... filen`) to
 submit your assignment rather than the command listed in the instructions if different. 
 
-<div markdown="1">
 
 ## Goals for this lab
 
