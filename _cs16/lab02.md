@@ -7,6 +7,14 @@ submit_cs: https://submit.cs.ucsb.edu/form/project/812/submission
 submit_cs_pnum: 812
 ---
 
+# NOTE: This labs adapted from CS16 to CCS 1A
+
+This lab is borrowed from Diba Mirza's CS16 and adapted for use in CCS CMPTGCS 1A
+
+Please use the page <{{page.submit_cs}}>, or the Unix shell commmand listed at that
+link (e.g. `~submit/submit -p nnn file1 file2 ... filen`) to
+submit your assignment rather than the command listed in the instructions if different. 
+
 # This lab was designed to be done using pair-programming
 
 If you are completing this lab in the context of CCS CMPTGCS 1A, you are permitted to do it "solo".  But you are encouraged to try out pair programming.   We'll discuss this more in an upcoming lecture (if we haven't already.)
