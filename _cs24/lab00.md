@@ -100,28 +100,25 @@ Open an editor of your choice (either vim or emacs)
 
 Useful links related to emacs
 
-	* <a href="https://www.gnu.org/software/emacs/tour/" target="_blank">emacs tour from the GNU organization (makers of emacs)</a>
+* <a href="https://www.gnu.org/software/emacs/tour/" target="_blank">emacs tour from the GNU organization (makers of emacs)</a>
 
-	* <a href="https://www.gnu.org/software/emacs/refcards/pdf/refcard.pdf" target="_blank">emacs commands - a handy reference card</a>
+* <a href="https://www.gnu.org/software/emacs/refcards/pdf/refcard.pdf" target="_blank">emacs commands - a handy reference card</a>
 
-	* <a href="http://www.jesshamrick.com/2012/09/10/absolute-beginners-guide-to-emacs" target="_blank">a beginner's guide to emacs</a>
+* <a href="http://www.jesshamrick.com/2012/09/10/absolute-beginners-guide-to-emacs" target="_blank">a beginner's guide to emacs</a>
 	
 
 Useful information related to <b>vim</b> for UNIX-based OS
 	
-	* To customize your vim environment for a better coding experience with C/C++ copy this .vimrc file from the instructor folder to your home folder using the following command:
+* To customize your vim environment for a better coding experience with C/C++ copy this .vimrc file from the instructor folder to your home folder using the following command:
 
-	```
-	cp /cs/faculty/dimirza/cs16-wi17/labs/example_dotvimrc/.vimrc ~/
-	``` 
+```
+cp /cs/faculty/dimirza/cs16-wi17/labs/example_dotvimrc/.vimrc ~/
+``` 
 
-	* <a href="http://www.vim.org/about.php" target="_blank">About vim</a>
-
-	* <a href="http://tnerual.eriogerg.free.fr/vimqrc.html" target="_blank">vim commands - a handy reference card</a>
-
-	* <a href="https://www.fprintf.net/vimCheatSheet.html" target="_blank">another reference cheat sheet for vim</a>
+* [About vim](http://www.vim.org/about.php)
+* [vim commands - a handy reference card](http://tnerual.eriogerg.free.fr/vimqrc.html)
+* [another reference cheat sheet for vim](https://www.fprintf.net/vimCheatSheet.html)
 	
-
 
 <hr>
 To refresh you may see some [emacs hints](emacs_hints/) and some [vim hints](vim_hints/).
@@ -143,9 +140,8 @@ Join the class CS24_s17 on submit.cs.
 
 Submit using the command:
 
-```
-$ ~submit/submit -p 661 hello.cpp
-```
+
+<tt>$ ~submit/submit -p {{page.submit_cs_pnum}} hello.cpp</tt>
 
 <hr>
 
