@@ -3,7 +3,8 @@ layout: lab
 num: lab02
 ready: true
 desc: "argc, argv, functions"
-submit_cs: https://submit.cs.ucsb.edu/form/project/812
+submit_cs: https://submit.cs.ucsb.edu/form/project/812/submission
+submit_cs_pnum: 812
 ---
 
 # Pre-lab prep
