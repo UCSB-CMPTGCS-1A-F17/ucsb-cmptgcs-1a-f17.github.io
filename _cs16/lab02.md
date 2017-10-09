@@ -3,8 +3,21 @@ layout: lab
 num: lab02
 ready: true
 desc: "argc, argv, functions"
-submit_cs: https://submit.cs.ucsb.edu/form/project/812
+submit_cs: https://submit.cs.ucsb.edu/form/project/812/submission
+submit_cs_pnum: 812
 ---
+
+# NOTE: This labs adapted from CS16 to CCS 1A
+
+This lab is borrowed from Diba Mirza's CS16 and adapted for use in CCS CMPTGCS 1A
+
+Please use the page <{{page.submit_cs}}>, or the Unix shell commmand listed at that
+link (e.g. `~submit/submit -p nnn file1 file2 ... filen`) to
+submit your assignment rather than the command listed in the instructions if different. 
+
+# This lab was designed to be done using pair-programming
+
+If you are completing this lab in the context of CCS CMPTGCS 1A, you are permitted to do it "solo".  But you are encouraged to try out pair programming.   We'll discuss this more in an upcoming lecture (if we haven't already.)
 
 # Pre-lab prep
 
@@ -12,7 +25,7 @@ submit_cs: https://submit.cs.ucsb.edu/form/project/812
 
 * Remotely log into your account on the csil servers and try to complete Step 1a of the lab that walks you through doing some initial ONE-TIME git configurations in your CoE account on CSIL.
 
-*Read through the entire lab, and identify parts that seem unclear to you. You can let your mentor know about this at the beginning of the lab.
+* Read through the entire lab, and identify parts that seem unclear to you. 
 
 # Goals for this lab 
  
@@ -33,15 +46,7 @@ By now, we expect that you are comfortable with these basic skills from lab00 an
     * Submitting assignments in this class with the submit.cs system, and checking your results
 
 
-## Step 0: Check-in with your mentor 
-
-* At the start of every lab, you and your partner should get together with your mentor group and mentor. Your mentor will give you any initial instructions as required for the lab, guiding you on the key learning goals and any challenging aspects that you need to pay special attention to. They will also take your attendance for that lab. This is also a time when you will check in about your progress in the programming assignments. Make sure that you always have the latest version of your code pushed to github before your weekly check-in with your mentor.
-
-* If you reported a different partner to your mentor last week, please update your mentor before you proceed with the rest of the lab
-
-* Choose who will be the pilot for the first part of the lab. The pilot should sit down in front of the computer now. The navigator gets a chair and sits next to the pilot. You should exchange roles after awhile, before the pilot gets tired, and before the navigator gets bored or distracted.
-
-* If your partner shows up late, let your mentor know. Points will be deducted for students who don't show up on time. If you face difficulties with pair programming consult your mentor. 
+## Step 0: Overview
 
 Below are the links to different sections of the lab:
 
