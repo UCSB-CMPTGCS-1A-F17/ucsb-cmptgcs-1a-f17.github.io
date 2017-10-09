@@ -5,6 +5,8 @@ ready: true
 desc: "argc, argv, functions"
 submit_cs: https://submit.cs.ucsb.edu/form/project/812/submission
 submit_cs_pnum: 812
+starter_code_repo: https://github.com/ucsb-cmptgcs-1a-f17/cs16-sp17-starter-code
+starter_code_repo_git: git@github.com:ucsb-cmptgcs-1a-f17/cs16-sp17-starter-code.git
 ---
 
 # NOTE: This labs adapted from CS16 to CCS 1A
@@ -79,7 +81,7 @@ Below are the links to different sections of the lab:
 * Clone the starter code repo from our class organization to the pilot's local account by typing the following commands
 
 ```
-  git clone git@github.com:ucsb-cs16-sp17/cs16-sp17-starter-code.git
+<tt>git clone {{page.starter_code_repo_git}}</tt>
 ```
 Note that this repo contains the starter code for all labs (although only the code for the current is up to date). So, you don't have to repeat the above step in subsequent labs. 
 
