@@ -73,6 +73,10 @@ collections:
   lectures:
     output: true
     permalink: /lectures/:path/
+    ready: false
+  f16lectures:
+    output: true
+    permalink: /f16lectures/:path/    
 
 
 defaults:
@@ -115,6 +119,12 @@ defaults:
     scope:
       path: ""
       type: lectures
+    values:
+      layout: default
+  -
+    scope:
+      path: ""
+      type: f16lectures
     values:
       layout: default
 

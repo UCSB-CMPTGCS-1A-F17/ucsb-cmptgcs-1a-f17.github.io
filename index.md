@@ -29,6 +29,20 @@ title: CMPTGCS 1A, Fall 2017
 
 </div>
 
+<div data-role="collapsible" data-collapsed="true">
+<h2 id="f16lectures">F16 Lectures:</h2>
+<table id="hwk_table" class="asn_table">
+{% for asn in site.f16lectures %}
+
+<tr>
+  <td ><a href="{{asn.url}}" data-ajax="false">lecture {{ asn.topic }}</a></td>
+  <td class="asn_desc" >{{ asn.desc }}</td>
+</tr>
+
+{% endfor %}
+</table>
+
+</div>
 
 <div data-role="collapsible" data-collapsed="false">
 <h2 id="labs">Labs:</h2>

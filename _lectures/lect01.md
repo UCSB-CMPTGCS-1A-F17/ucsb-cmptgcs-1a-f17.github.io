@@ -1,0 +1,89 @@
+---
+num: "Lecture 01"
+ready: true
+date: 2017-10-02
+desc: "Jumpstart: ECI account, github account, submit.cs account and lab work"
+---
+
+# Creating your account on submit.cs
+
+1. Go to https://submit.cs.ucsb.edu
+2. Click "Create Account".
+3. Use your @umail.ucsb.edu account to create your account.
+4. Then, login at https://submit.cs.ucsb.edu
+5. Click "Join Class", and find the button "Join CMPTGCS_1a_f16". Click it.
+
+# Logging into CSIL from a terminal prompt (for simple command line stuff without graphics)
+
+These instructions work at the following terminal prompts:
+* Mac OS
+    * Terminal
+* Linux (also any other reasonable Unix-based system)
+    * Any terminal/shell 
+* Windows
+    * the "git bash shell" provided by [git for Windows](https://git-scm.com/download/win)
+    * shells provided by [Cygwin](https://www.cygwin.com/)
+    * The Microsoft provided [bash for Windows](https://msdn.microsoft.com/en-us/commandline/wsl/about) (on Windows 10, and we assume, subsequent versions of Windows)
+
+Assuming your CSIL username is cgaucho, use:
+
+```
+ssh cgaucho@csil-07.cs.ucsb.edu
+```
+
+BUT: `csil-07` should not be taken literally.  Use any of `csil-01`, `csil-02`, `csil-03`, etc. through `csil-48`.
+
+# Other ways to connect (simple command line without graphics)
+
+* PuTTY on Windows.  Hostname is csil-01.cs.ucsb.edu (or any of 01 through 48).
+
+# Connecting with X11 Graphics
+
+* On MacOS:
+    * You need an extra download, XQuartz
+    * Then, just use "ssh -Y ..." instead of "ssh"
+* On Unix/Linux:
+    * Just using "ssh -Y ... " instead of "ssh" should work.
+* On Windows:
+    * Easiest known free solution: MobaXTerm (usually just "works")
+    * Another known free solution: PuTTY + XMing  (requires a bit of configuration)
+    * X11 server built into Cygwin
+
+
+# Useful Unix Commands
+
+* Make a whole directory path at once:
+    ```
+    mkdir -p foo/bar/fum/fiddle
+    ```
+    
+*   Remote secure copy (via "scp", a cousin of "ssh", the "secure shell") a file from CSIL to current directory
+    on your local machine
+    ```
+    scp yourusername@csil-01.cs.ucsb.edu:/some/directory/on/csil/some_file.cpp .
+    ```
+    
+*   Scp files with a wildcard, e.g. `*.cpp`.
+    Note that you have to "escape" the wildcard, so that it gets interpreted on the remote system instead of at
+    the local shell.
+    
+    ```
+    scp yourusername@csil-01.cs.ucsb.edu:/some/directory/on/csil/\*.cpp .
+    ```
+
+    
+*   Scp entire directory.
+    Note that you have to "escape" the wildcard, so that it gets interpreted on the remote system instead of at
+    the local shell.
+    
+    ```
+    scp -r yourusername@csil-01.cs.ucsb.edu:/some/directory/on/csil .
+    ```
+
+# Test-Driven Development in C++
+
+Google Test and Google Mock are frameworks that support test-driven development in C++.
+
+https://github.com/UCSB-CMPTGCS-1A-F16/gtest-demo
+
+

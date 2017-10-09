@@ -1,4 +1,15 @@
 var dates = {
+    "lectures": [
+	{% for lect in site.lectures %}
+	{
+	    "num" : "{{ lect.num }}",
+	    "ready" :  "{{ lect.ready }}",
+	    "desc" :  "{{ lect.desc }}",
+	    "date" :  "{{ lect.date }}",
+	    "url" :  "{{ lect.url }}",
+	},
+	{% endfor %}
+    ],
     "hwk": [
 	{% for asn in site.hwk %}
 	{
@@ -87,6 +98,9 @@ function traverseDates(dates) {
     for (var i = 0, len = dates.exam.length; i < len; i++) {
 	processExam(dates.exam[i]);
     }
+    for (var i = 0, len = dates.lectures.length; i < len; i++) {
+	processLecture(dates.lectures[i]);
+    }
     console.log("processCalDate loop:");
     for (var i = 0, len = dates.cal_dates.length; i < len; i++) {
 	console.log("processCalDate loop, i=" + i);
@@ -112,6 +126,14 @@ function isExam(exam) {
 	exam.hasOwnProperty('desc') &&
  	exam.hasOwnProperty('exam_date');
 }
+
+function isLecture(lect) {
+    return lect.hasOwnProperty('num') &&
+	lect.hasOwnProperty('ready') &&
+	lect.hasOwnProperty('desc') &&
+ 	lect.hasOwnProperty('date');
+}
+
 
 function isCalDate(exam) {
     return exam.hasOwnProperty('label') &&
@@ -152,6 +174,21 @@ function processExam(item) {
 		       cal.days,
 		       cal.days_outside_calendar);
 }
+
+function processLecture(item) {
+    if (!isLecture(item)) {
+	reportError("processLecture: problem with item" + JSON.stringify(item));
+    }
+
+    mmdd_date = moment(item.date).format("MM/DD");
+
+    var assigned = {"asn_type" : "lecture", "date_type" : "lecture", "value": JSON.stringify(item) };
+    pushToDaysOrErrors(assigned,
+		       mmdd_date,
+		       cal.days,
+		       cal.days_outside_calendar);
+}
+
 
 function processCalDate(item) {
     console.log("processCalDate: item=" + JSON.stringify(item));
@@ -307,6 +344,28 @@ function addCalendarTable(cal) {
 ;
     });
 
+    $('.cal-assignments div[data-asn-type="lecture"]').each(function() {
+	var lect = ($(this).data("date-value"));
+    if (lect.ready=="true") {
+		$(this).addClass("ready");
+	} else {
+		$(this).addClass("not-ready");
+	}
+	/* var label = $('<span />')
+	    .text(lect.desc + ": ")
+	    .appendTo($(this)); */
+	/* TODO: Make tooltip  https://www.w3schools.com/howto/howto_css_tooltip.asp */
+	var link = $('<a />')
+	    .attr('href',lect.url)
+	    .attr('data-ajax','false')
+	    .text(lect.num)
+	    .appendTo($(this));
+	$(this).addClass("lect")
+;
+    });
+
+
+    
     $('.cal-assignments div[data-asn-type="calDate"]').each(function() {
 	var cal_date = ($(this).data("date-value"));
 	$(this).addClass("ready");
