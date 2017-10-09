@@ -407,9 +407,9 @@ And, if there is not exactly one parameter, there should be an appropriate "usag
 
 When you have a version that can pass its internal tests, try submitting it along with your starT.cpp and starC.cpp to the submit.cs system.  
 
-```
-~submit/submit -p 698 starC.cpp starT.cpp starZ.cpp
-```
+
+<tt>~submit/submit -p {{page.submit_cs_pnum}} starC.cpp starT.cpp starZ.cpp</tt>
+
 
 If there are errors reported, fix them.    
 
