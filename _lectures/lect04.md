@@ -8,3 +8,6 @@ desc: "Richert: More on Pointers"
 
 
 
+# Also this on uninitialized pointers:
+
+https://ucsb-cs16.github.io/topics/cpp_pointer_initialization/
