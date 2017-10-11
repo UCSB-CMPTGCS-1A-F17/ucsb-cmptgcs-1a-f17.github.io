@@ -25,3 +25,9 @@ To check your understanding, try [cs32/lab03/](/cs32/lab03/)
 # Also this on uninitialized pointers:
 
 https://ucsb-cs16.github.io/topics/cpp_pointer_initialization/
+
+# Also see:
+
+https://gauchospace.ucsb.edu/courses/pluginfile.php/1411679/mod_resource/content/1/CMPSC%2032%20Conrad%20PROOF.pdf
+
+p. 55-81
