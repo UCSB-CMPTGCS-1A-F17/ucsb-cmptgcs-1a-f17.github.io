@@ -20,7 +20,7 @@ if those pointers end up pointing to stuff allocated with `new`, think carefully
 Conversely, if *none* of your attributes are pointers (e.g. if they are *all* primitive types, or C++ library types 
 such as `std::string`), you *probably* don't need to worry about the big-3.
 
-To check your understanding, try </labs/cs32_lab03>
+To check your understanding, try [cs32_lab03](/labs/cs32_lab03)
 
 # Also this on uninitialized pointers:
 
