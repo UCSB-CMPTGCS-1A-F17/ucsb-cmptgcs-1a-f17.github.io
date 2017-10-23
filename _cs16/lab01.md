@@ -46,9 +46,21 @@ You are now ready to get the starter code.
 
 Copy the code from the instructor's account on the CSIL server into your local git directory. If your local git directory is lab01_alily_jgaucho issue the following command:
 
+```
   cp /cs/faculty/dimirza/cs16-sp17/labs/lab01/* ~/cs16/lab01/
+```
 
-After doing this command, if you cd into ~/cs16/lab01/ and use the ls command, you should see three .cpp files and a README:
+You may get some permission errors for some files, such as those listed below.  If you do, don't worry about it.
+
+```
+-bash-4.3$ cp /cs/faculty/dimirza/cs16-sp17/labs/lab01/* ~/cs16/lab01
+cp: cannot open '/cs/faculty/dimirza/cs16-sp17/labs/lab01/a.out' for reading: Permission denied
+cp: cannot open '/cs/faculty/dimirza/cs16-sp17/labs/lab01/min3v1' for reading: Permission denied
+cp: cannot open '/cs/faculty/dimirza/cs16-sp17/labs/lab01/myexec' for reading: Permission denied
+-bash-4.3$ 
+```
+
+Even if you get those errors, after doing this command, if you cd into ~/cs16/lab01/ and use the ls command, you should see three .cpp files and a README:
 
 ```
 -bash-4.2$ ls
