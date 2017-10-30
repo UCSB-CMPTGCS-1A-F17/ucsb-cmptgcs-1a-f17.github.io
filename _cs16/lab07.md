@@ -40,6 +40,8 @@ Note: Remember to push your work to github at the end of EVERY work session. Tha
 
 This step is similar to lab02, first open terminal and go to the directory where you cloned the starter code in lab02 and pull the latest version of the starter code.
 
+{% include cs16-s17-starter-code.md %}
+
 ```
   cd ~/cs16/cs16-sp17-starter-code
   git pull
