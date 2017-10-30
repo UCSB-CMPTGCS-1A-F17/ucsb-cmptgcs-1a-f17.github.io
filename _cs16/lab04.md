@@ -49,9 +49,8 @@ Be sure to commit and push or work to github at the end of EVERY work session. T
 
 This step is similar to lab02, first open terminal and go to the directory where you cloned the starter code in lab02 and pull the latest version of the starter code.
 
-NOTE: If you do not have the directory ~/cs16/cs16-sp17-starter-code on your computer, 
-then please visit <https://ucsb-cmptgcs-1a-f17.github.io/cs16/lab02/>, skip down to step&nbsp;2,
-and follow the instructions to do a `git clone` of the starter code repository before proceeding.
+{% include cs16-s17-starter-code.md %}
+
 
 ```
   cd ~/cs16/cs16-sp17-starter-code
