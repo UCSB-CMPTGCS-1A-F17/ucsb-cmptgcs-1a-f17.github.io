@@ -67,6 +67,9 @@ In lab02,  we have done the same thing. So if you don't know to how to do that, 
 
 This step is aslo very similar to lab02, first open terminal and go to the directory where you cloned the starter code in lab02 and pull the latest version of the starter code.
 
+{% include cs16-s17-starter-code.md %}
+
+
 ```
   cd ~/cs16/cs16-sp17-starter-code
   git pull
