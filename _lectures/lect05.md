@@ -13,5 +13,6 @@ https://github.com/ucsb-cmptgcs-1a-f17/lecture-11-15-Makefiles
 
 * http://www.cs.colby.edu/maxwell/courses/tutorials/maketutor/
 * http://mrbook.org/blog/tutorials/make/
+* https://www.cs.umd.edu/class/fall2002/cmsc214/Tutorial/makefile.html
 
 
