@@ -7,3 +7,5 @@ desc: "Phill: Make, Makefiles, compiling/linking/running in C/C++, and build man
 
 # A repo for today:
 
+https://github.com/ucsb-cmptgcs-1a-f17/lecture-11-15-Makefiles
+
