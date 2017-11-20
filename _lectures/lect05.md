@@ -12,3 +12,6 @@ https://github.com/ucsb-cmptgcs-1a-f17/lecture-11-15-Makefiles
 # Some Makefile tutorials
 
 * http://www.cs.colby.edu/maxwell/courses/tutorials/maketutor/
+* http://mrbook.org/blog/tutorials/make/
+
+
