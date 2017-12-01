@@ -3,7 +3,7 @@ layout: lab
 num: lab06
 ready: true
 desc: "simple structs"
-submit_cs: https://submit.cs.ucsb.edu/form/project/816
+submit_cs: https://submit.cs.ucsb.edu/form/project/816/submission
 ---
 
 # Goals of this lab
