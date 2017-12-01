@@ -3,7 +3,7 @@ layout: lab
 num: lab04
 ready: true
 desc: "if/else, nested for loop and if/else logic, ASCII art, tdd"
-submit_cs: https://submit.cs.ucsb.edu/form/project/814
+submit_cs: https://submit.cs.ucsb.edu/form/project/814/submission
 ---
 
 <div markdown="1">
