@@ -6,6 +6,9 @@ desc: "Tf-Idf analysis of Reddit Posts, Using C++ code to access JSON"
 submit_cs: https://submit.cs.ucsb.edu/form/project/546
 ---
 
+NOTE: Edit `#include <jsoncpp/json/json.h>` to `#include <json/json.h>` each place that appears in the source
+code---it appears in `Reddit.h` and `RedditPostDownloader.h`
+
 Please visit:
 
 <https://foo.cs.ucsb.edu/32wiki/index.php/F15:Labs:lab07>
